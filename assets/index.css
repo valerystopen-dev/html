@@ -7,7 +7,7 @@ div p {
 }
 
 div h2 {
-    color: slateblue;
+    color: bisque;
 }
 
 p, h2 {
@@ -20,7 +20,7 @@ p {
 }
 
 #test {
-    color: bisque;
+    color: stateblue;
 }
 
 #test p {
@@ -33,11 +33,11 @@ h2 {
 }
 
 .www {
-    border: 10px solid darkmagenta;
+    border: 10px solid ghostwhite;
 }
 
 p.www {
-    border: 10px solid ghostwhite;
+    border: 10px solid darkmajenta;
 }
 
 .test,
@@ -51,11 +51,11 @@ p.test,
 }
 
 #test p.www {
-    color: darkblue;
+    color: yellowgreen;
 }
 
 #test i {
-    color: yellowgreen;
+    color: darkblue;
 }
 
 .www.xxx {
@@ -67,11 +67,11 @@ p.test.xxx {
 }
 
 .test.www.xxx {
-    border: 2px solid lightsalmon;
+    border: 2px solid yellow;
 }
 
 p > a {
-    color: yellow;
+    color: lightsalmon;
 }
 
 p > i {
@@ -145,11 +145,11 @@ ol li {
 }
 
 .list1 li:hover {
-    background-color: green;
+    background-color: red;
 }
 
 .list1 li:hover + li {
-    background-color: red;
+    background-color: green;
 }
 
 .list2 li:hover {
@@ -157,15 +157,15 @@ ol li {
 }
 
 .list2 li:hover + li + li {
-    background-color: red;
-}
-
-.list3 li:hover {
     background-color: green;
 }
 
-.list3 li:hover ~ li {
+.list3 li:hover {
     background-color: red;
+}
+
+.list3 li:hover ~ li {
+    background-color: green;
 }
 
 .list3 li:hover ~ li:last-child {
